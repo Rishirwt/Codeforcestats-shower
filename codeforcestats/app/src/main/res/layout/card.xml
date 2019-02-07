@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4sp">
+
+
+        <TextView
+            android:id="@+id/contestname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:text="TextView"
+            android:textColor="#F8F4F4"
+            android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/rank"
+        android:gravity="center|left"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold|italic"
+        android:text="TextView"
+        android:textColor="#F8F4F4"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/oldrank"
+        android:gravity="center|left"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold|italic"
+        android:text="TextView"
+        android:textColor="#F8F4F4"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/newrank"
+        android:layout_width="match_parent"
+        android:gravity="center|left"
+
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold|italic"
+        android:text="TextView"
+        android:textColor="#F8F4F4"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#B60808"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="5dp"
+        android:layout_height="2dp"
+        />
+
+</LinearLayout>
